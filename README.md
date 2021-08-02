@@ -5,6 +5,8 @@ Source:
 
 [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
 
+[Visual-Transformers-a-new-computer-vision-paradigm](https://medium.com/swlh/visual-transformers-a-new-computer-vision-paradigm-aa78c2a2ccf2)
+
 ####  Step 1: Split the image into fixed-size patches. 
 #### Step 2:Flatten the 2D image patches to 1D patch embedding and linearly embed them using a fully connected layer. Positional embeddings are added to the patch embeddings to retain positional information.
 #### Step 3: A special classification token(CLS) is added to positional encoding, and the positional encoding is summed. The positional patch encoded vectors will be passed as an input to the Transformer Encoder.
