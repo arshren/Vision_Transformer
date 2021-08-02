@@ -10,3 +10,4 @@ Source:
 #### Step 3: A special classification token(CLS) is added to positional encoding, and the positional encoding is summed. The positional patch encoded vectors will be passed as an input to the Transformer Encoder.
 #### Step 4: Transformer Encoder has alternating layers of multiheaded self-attention and MLP blocks. Layernorm (LN) is applied before the self-attention block, and the MLP block and the residual connections are applied after every block.
 #### Step 5: A classification head is implemented using MLP with one hidden layer at pre-training time and a single linear layer for fine-tuning for image classification.
+![alt text](https://github.com/arshren/Vision_Transformer/blob/main/ViT.JPG)
